@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-primary-gradient {
+    background: linear-gradient(135deg, #1e2d6b 0%, #2d4499 100%);
+    color: white;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.btn-primary-gradient:hover {
+    background: linear-gradient(135deg, #2d4499 0%, #1e2d6b 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(30, 45, 107, 0.3);
+}
